@@ -1,0 +1,55 @@
+.work-container{
+    width: 90%;
+    margin: 7rem auto;
+    text-align:center ;
+}
+.work-container h2{
+    font-family: eurostile-bold;
+    color: var(--primary-heading-color);
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+}
+.work-container p{
+    font-family: europa;
+    color: var(--primary-para-color);
+    font-size: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+#text-blue{
+    color: #0066cd;
+    transition: color 0.3s ease;
+}
+#text-blue:hover{
+    cursor: pointer;
+    color: #003eaa;
+}
+.project-gap{
+    gap: 2rem 1rem;
+}
+.w-90{
+    width: 90%;
+    margin: 5rem auto;
+}
+.project{
+    width: 22rem;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+.project:hover{
+    transform: scale(1.05);
+}
+.dribble-button-div{
+    margin: 0 auto;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid var(--secondary-color);
+    padding: 0.5rem 1.5rem;
+    font-family: europa;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    border-radius: 100px;
+}
+.dribble-button-div:hover{
+    color: darkblue;
+}

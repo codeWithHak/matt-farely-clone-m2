@@ -1,0 +1,48 @@
+/* Navbar.css */
+.navbar {
+    width: 88%;
+    margin: 0 auto;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.75rem;
+  }
+  
+  
+  .buttons {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+  }
+  
+  .cv-button {
+    border: none;
+    font-size: 1rem;
+    background-color: #fff;
+    font-family: 'europa', sans-serif;
+    color: var(--primary-para-color);
+    transition: color 0.3s;
+  }
+  
+  .cv-button:hover {
+    color: var(--secondary-color);
+  }
+  
+  .mentorship-button {
+    background-color: #fff;
+    font-family: 'europa', sans-serif; /* Replace with your font */
+    padding: 0.5rem 1rem; /* Equivalent to Tailwind px-5 py-2 */
+    border: 2px solid var(--secondary-color);
+    border-radius: 9999px;
+    color: var(--secondary-color);
+    transition: color 0.3s, background-color 0.3s;
+    font-size: 1rem;
+}
+  
+  .mentorship-button:hover {
+    color: white;
+    background-color: var(--secondary-color);
+  }
+  
