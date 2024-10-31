@@ -5,7 +5,7 @@ function Work() {
     <div className="work-container">
         <div className="work-content">
         <h2>My Recent Work</h2>
-        <p>Here are a few past design projects I've worked on. Want to see more? <span id="text-blue">Email me.</span></p>
+        <p>Here are a few past design projects I&apos;ve worked on. Want to see more? <span id="text-blue">Email me.</span></p>
         <div className="grid grid-cols-3 project-gap w-90">
             <Image src="/images/project1.png" alt="" height={500} width={500} className="project" layout="responsive" quality={100}/>
             <Image src="/images/project2.png" alt="" height={500} width={500} className="project" layout="responsive" quality={100}/>
